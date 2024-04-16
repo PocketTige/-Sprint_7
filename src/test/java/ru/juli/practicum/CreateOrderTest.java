@@ -60,8 +60,8 @@ public class CreateOrderTest {
     }
 
     @Test
-    @DisplayName("Создание заказа")
-    @Description("Создание заказа со всеми цветми самока (параметризация)")
+    @DisplayName("create Order") // Создание заказа
+    @Description("create Order with all colour") //Создание заказа со всеми цветми самока (параметризация)
     public void createOrder() {
         order = Order.createOrder(firstName, lastName, address, metroStation, phone, rentTime, deliveryDate, comment, color);
         ValidatableResponse orderResponse = client.createOrder(order);

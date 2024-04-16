@@ -1,7 +1,9 @@
-package ru.juli.practicum.client;
+package ru.juli.practicum.courier;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import ru.juli.practicum.client.Courier;
+import ru.juli.practicum.client.ScooterServiceClientImpl;
 
 import static ru.juli.practicum.client.Credentials.fromCourier;
 import static ru.juli.practicum.constants.URL.REQUEST_SPECIFICATION;
